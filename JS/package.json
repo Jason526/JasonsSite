@@ -1,0 +1,16 @@
+{
+  "name": "JS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainpage.js",
+  "scripts": {
+    "build:css": "tailwind build ../CSS/styling.css -o dist/styling.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "tailwindcss": "^1.9.6"
+  }
+}
