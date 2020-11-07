@@ -14,7 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="../CSS/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css" />
+  
   </head>
 
   <body>
@@ -62,8 +62,8 @@
     <div class="padding">
       <div class="container">
         <div class="row">
-          <div class="aboutMeHeader container-fluid text-center">
-            <h1><u>Profile</u></h1>
+          <div id="aboutMeHeader" class="container-fluid text-center">
+            <h1 class="sectionTag"><u>Profile</u></h1>
             <h4>I'm a Computer Science Major and Software Developer</h4>
             <hr />
           </div>
@@ -95,71 +95,215 @@
       </div>
     </div>
 
-    <div id="experience" class="padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-6 col-x-12">
-            <h4>Built with Sass</h4>
-            <p>
-              There was something special about this little creature. Donna
-              couldn't quite pinpoint what it was, but she knew with all her
-              heart that it was true. It wasn't a matter of if she was going to
-              try and save it, but a matter of how she was going to save it. She
-              went back to the car to get a blanket and when she returned the
-              creature was gone.
-            </p>
+<div id="experience" class="padding">
+    <!--Experience Header start-->
+    <div class="container">
+          <div class="row">
+            <div id="experienceHeader" class="container-fluid text-center">
+              <h1 class="sectionTag"><u>Experience</u></h1>
+              <h4>
+                Here you'll find my education and work/volunteer experience.
+              </h4>
+              <hr />
+            </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-x-12">
-            <img src="../img/sass.png" class="img-responsive" />
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-x-12">
-            <h4>And Less</h4>
-            <p>
-              There was something special about this little creature. Donna
-              couldn't quite pinpoint what it was, but she knew with all her
-              heart that it was true. It wasn't a matter of if she was going to
-              try and save it, but a matter of how she was going to save it. She
-              went back to the car to get a blanket and when she returned the
-              creature was gone.
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-x-12">
-            <img src="../img/less.png" class="img-responsive" />
-          </div>
-        </div>
-      </div>
-    </div>
+    <!--Experience Header end**-->
 
-    <div id="fixed"></div>
 
-    <div class="padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h4>Here's the cool thing about bootstrap...</h4>
-            <p>
-              There was something special about this little creature. Donna
-              couldn't quite pinpoint what it was, but she knew with all her
-              heart that it was true. It wasn't a matter of if she was going to
-              try and save it, but a matter of how she was going to save it. She
-              went back to the car to get a blanket and when she returned the
-              creature was gone.
-            </p>
-            <p>
-              There was something special about this little creature. Donna
-              couldn't quite pinpoint what it was, but she knew with all her
-              heart that it was true. It wasn't a matter of if she was going to
-              try and save it, but a matter of how she was going to save it. She
-              went back to the car to get a blanket and when she returned the
-              creature was gone.
-            </p>
-          </div>
-          <div class="col-sm-6">
-            <img src="../img/bootstrap2.png" />
-          </div>
+    <!--Education section start-->
+        <h3>Education</h3>
+        <div class="experiences">                              <!--This encompasses the entire experience section-->
+            <div id="educaton" class="experience row">
+                <div class="col-md-4">
+                    <h4>York University</h4>
+                    <p class="experience-period"> September 2017 - April 2022</p></p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                    <strong>Honours Bachelor of Science - Computer Science</strong>
+                    <div class="d-none d-lg-block">
+                        Here is where I've learned the "basics" of computer science. The most fundamental courses
+                        that apply to my everyday development are object-oriented programming and data structures and algorithms. Both of which,
+                        the programming language used was Java.
+                    </div>
+                    </p>
+                    <span class="location">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        Toronto, Ontario, Canada
+                    </span> 
+                </div>
+            </div>
+            <hr>
+    <!--Education section end**-->
+            
+    <!--careers Section start-->
+        <h3>Careers</h3>
+            <div id="careers" class="experiences">
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>Full Stack Software Developer</h4>
+                        <p class="experience-period"> June 2020 - Present</p></p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <strong>Freelance Contract</strong>
+                        <div class="d-none d-lg-block">
+                            Communicated with a client to design and implement a drinking games website. This project primarily focused on the MERN stack. The implementation of the database was done using 
+                            MongoDB and MySQL. This database held various drinking games. The front end features and UI wer edeveloped using React.JS & Bootstrap. 
+                            With the backend features and routing developed using Node.JS and Express.JS
+                        </div>
+                    </p>
+                    <span class="location">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        Toronto, Ontario, Canada
+                    </span> 
+                </div>
+                </div>
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>Pool Manager & Waterfront Lifeguard</h4>
+                        <p class="experience-period"> June 2016 - Present</p></p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <strong>City of Toronto</strong>
+                        <div class="d-none d-lg-block">
+                            Here is where I developed my leadership, communication, and overall life skills. I participated and lead numerous Search and Recue operations.
+                            As well as, communicating clearly to other team members about status updates and when I needed help.
+                        </div>
+                    </p>
+                    <span class="location">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        Toronto, Ontario, Canada
+                    </span> 
+                </div>
+                </div>
+
+            </div>
+        <!--careers section end **-->
+        <hr/>
+
+
+        <!-- Clubs and Volunteer experience start -->
+            <h3>Clubs & Volunteer Experience</h3>
+            <div class="experiences">
+                <div id="GoogleDSC" class="experience row">
+                    <div class="col-md-4">
+                        <h4>Developer</h4>
+                        <p class="experience-period"> Sep 2020 - Present</p></p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <strong>Google Developer Student Club</strong>
+                        <div class="d-none d-lg-block">
+                            I participate in learning new tech stacks that might available at the workshops throughout the year.
+                            The club allows me to collaborate with other team members to pursue project ideas and work through hackathons.
+                        </div>
+                    </p>
+                    <span class="location">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        York University, Ontario, Canada
+                    </span> 
+                </div>
+                </div>
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>Team Lead & Programmer</h4>
+                        <p class="experience-period"> Feb 2019 - Feb 2019</p></p>
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                            <strong>Staecie Hackathon</strong>
+                            <div class="d-none d-lg-block">
+                                Developed an app with a user target for less active individuals. The goal of the app was to motivate this less active user base
+                                through motivational prompts triggered by a Google Fit API Step counter.
+                            </div>
+                        </p>
+                        <span class="location">
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            Toronto, Ontario, Canada
+                        </span> 
+                    </div>
+                </div>
+
+            </div>
         </div>
-      </div>
     </div>
+</div>
+
+
+    <div id="abilities" class="padding">
+        <div class="container">
+          <div class="row">
+            <div id="abilitiesHeader" class="container-fluid text-center">
+              <h1 class="sectionTag"><u>Abilities</u></h1>
+              <h4>
+                Here you'll find my skillset and my familiar development tools.
+              </h4>
+              <hr />
+            </div>
+          </div>
+          <div class="abilities row">
+              <div class="skillset col-md-4">
+                <h4 class="abilitySubHeader">Languages</h4>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>C</li>
+                    <li>Swift</li>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                </ul>
+            </div>
+              <div class="skillset col-md-4">
+                <h4 class="abilitySubHeader">Scripting/OS</h4>
+                <ul>
+                    <li>Shell</li>
+                    <li>Bash</li>
+                    <li>Git Version Control</li>
+                    <li>Windows</li>
+                    <li>Linux</li>
+                    <li>Unix</li>
+                </ul>
+            </div>
+            <div class="skillset col-md-4">
+                <h4 class="abilitySubHeader">Full Stack Dev</h4>
+                <div class="row">
+                    <div class="col-md-5">
+                        <ul>
+                            <li><u>Backend</u></li>
+                            <ul>
+                                <li>Node.JS</li>
+                                <li>Express.JS</li>
+                                <li>SQL</li>
+                                <li>MongoDB</li>
+                                <li>REST</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <ul>
+                            <li><u>Frontend</u></li>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>React.JS</li>
+                                <li>React Native</li>
+                            </ul>
+                        </ul>
+                   
+                    </div>
+                    </div>
+                </div>
+                
+
+
+            </div>
+          </div>
+          </div>
+     
 
     <!----------Footer-------->
     <footer class="container-fluid text-center">

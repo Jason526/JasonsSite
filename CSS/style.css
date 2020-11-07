@@ -21,7 +21,7 @@ body {
 
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li a:active {
-  color: #fff;
+  color: #b0c4de;
 }
 
 #home {
@@ -47,10 +47,10 @@ body {
 }
 /* About me Section */
 .aboutMeHeader {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .padding {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 .padding img {
   width: 100%;
@@ -63,30 +63,31 @@ body {
 /* Education */
 
 #experience {
-  background-color: #fffaf0;
+  background-color: #faf0e6;
+}
+.experience {
+  margin-bottom: 30px;
+}
+/* Abilities */
+.skillset {
+  border-right: #000000 0.3px solid;
+}
+.abilitySubHeader {
+  text-align: center;
 }
 
-#fixed {
-  background: url(../img/background.jpg) no-repeat center center fixed;
-
-  display: table;
-  height: 60%;
-  position: relative;
-  width: 100%;
-  background-size: cover;
-}
-
+/* footer */
 footer {
   width: 100%;
-  background-color: #23415c;
+  background-color: #b0c4de;
   padding: 5% 5% 10% 5%;
-  color: #fff;
+  color: black;
 }
 
 .fa {
   padding: 15px;
   font-size: 25px;
-  color: #fff;
+  color: black;
 }
 
 .fa:hover {
