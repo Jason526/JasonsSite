@@ -11,17 +11,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="../CSS/style.css" rel="stylesheet" />
-  
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
 
   <body>
+    
     <!-----Landing Page----->
 
     <!--Navbar-->
-    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" >
       <div class="container-fluid">
         <div class="navbar-header">
           <button
@@ -48,19 +48,22 @@
       </div>
     </nav>
 
-    <div id="home">
+    <div class="container" id="home" data-aos="fade-up">
       <div class="landing-text">
         <h1>Jason Yang</h1>
-        <h3>Full Stack Developer</h3>
         <hr />
+        <h3>Full Stack Developer</h3>
       </div>
     </div>
 
+    <!-- Profile Anchor jumps to -->
+    <div class="navbarspace" id="profileHeader">
+    </div>
     <!-- secondary page-->
-    <div class="padding">
+    <div class="padding" >
       <div class="container">
         <div class="row">
-          <div id="profileHeader" class="container-fluid text-center">
+          <div class="container-fluid text-center">
             <h1 class="sectionTag"><u>Profile</u></h1>
             <h4>I'm a Software Engineer and Software Developer</h4>
             <hr />
@@ -93,11 +96,15 @@
       </div>
     </div>
 
-<div id="experience" class="padding">
+    <!-- Profile Anchor jumps to -->
+    <div class="navbarspace" id="experienceHeader" >
+    </div>
     <!--Experience Header start-->
+
+<div id="experience" class="padding">
     <div class="container">
           <div class="row">
-            <div id="experienceHeader" class="container-fluid text-center">
+            <div class="container-fluid text-center">
               <h1 class="sectionTag"><u>Experience</u></h1>
               <h4>
                 Here you'll find my education and work/volunteer experience.
@@ -213,8 +220,9 @@
                         <p>
                             <strong>Staecie Hackathon</strong>
                             <div class="d-none d-lg-block">
-                                Developed an app with a user target for less active individuals. The goal of the app was to motivate this less active user base
-                                through motivational prompts triggered by a Google Fit API Step counter.
+                                Developed an app idea to help motivate less active or busy individuals to stay fit. 
+                                This was done through motiatational prompts to remind/inspire individuals to take a break
+                                and 
                             </div>
                         </p>
                         <span class="location">
@@ -229,10 +237,14 @@
     </div>
 </div>
 
-    <div id="abilities" class="padding">
+<!-- Profile Anchor jumps to -->
+<div class="navbarspace" id="abilitiesHeader" >
+</div>
+    <!-- Abilities Section Starts -->
+<div id="abilities" class="padding" >
         <div class="container">
           <div class="row">
-            <div id="abilitiesHeader" class="container-fluid text-center">
+            <div class="container-fluid text-center">
               <h1 class="sectionTag"><u>Abilities</u></h1>
               <h4>
                 Here you'll find my skillset and my familiar development tools.
@@ -297,12 +309,34 @@
             </div>
           </div>
           </div>
-     
+
+
+      
+    
+<!-- Projects and Relevant Coursework -->
+      <div id="projects" class="padding" >
+        <div class="container-fluid text-center">
+          <h1>Projects & Relevant Courses</h1>
+          <h4>Section Coming Soon</h4>
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+
+    
+     <!-- Profile Anchor jumps to -->
+    <div class="navbarspace" id="contactInfo" >
+    </div>
     <!----------Footer-------->
     <footer class="container-fluid text-center">
       <div class="row">
-        <div id="contactInfo" class="container-fluid">
-          <h2>Contact</h2>
+        <div class="container-fluid">
+          <h2><u>Contact</u></h2>
           <h4>Let's connect and solve some problems!</h4>
           <hr />
         </div>
@@ -319,5 +353,15 @@
         </div>
       </div>
     </footer>
+
+    <!-- Scripts loading in at the end of the HTML document to allow for faster webpage load -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="../JS/mainpage.js"></script>
+
   </body>
 </html>
